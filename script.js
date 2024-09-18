@@ -77,8 +77,8 @@ generateBtn.addEventListener('click', () => {
     raidRequires.textContent = `Requires: ${randomRaid.requires}`;
     classOutput.textContent = `${randomClass}`;
     subclassOutput.textContent = `${randomSubclass}`;
-    raidActivityDiv.style.display = 'block';
+    //raidActivityDiv.style.display = 'block';
 });
 
 // Hide raid activity initially
-raidActivityDiv.style.display = 'none';
+//raidActivityDiv.style.display = 'none';
