@@ -69,6 +69,8 @@ const subclassOutput = document.getElementById('subclass-output');
 
 generateBtn.addEventListener('click', () => {
     const randomRaid = raidActivities[Math.floor(Math.random() * raidActivities.length)];
+    const randomClass = classes[Math.floor(Math.random() * classes.length)];
+    const randomSubclass = subclasses[Math.floor(Math.random() * subclasses.length)];
     raidImage.src = `assets/img/raids/${randomRaid.imagePath}`;
     raidName.textContent = randomRaid.activity;
     raidLocation.textContent = `Location: ${randomRaid.location}`;
