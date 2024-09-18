@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -13,7 +15,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#generate-btn {
+.btn {
     background-color: #4CAF50;
     color: #fff;
     padding: 10px 20px;
@@ -22,17 +24,19 @@ body {
     cursor: pointer;
 }
 
-#generate-btn:hover {
+.btn:hover {
     background-color: #3e8e41;
 }
 
-#raid-activity {
+.raid-activity {
     margin-top: 20px;
     text-align: center;
 }
 
 #raid-image {
-    width: 240px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -45,4 +49,43 @@ body {
 #raid-location, #raid-requires {
     font-size: 18px;
     color: #666;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+    .container {
+        margin: 20px auto;
+        padding: 10px;
+    }
+    .btn {
+        padding: 5px 10px;
+    }
+    #raid-image {
+        height: 150px;
+    }
+    #raid-name {
+        font-size: 20px;
+    }
+    #raid-location, #raid-requires {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        margin: 10px auto;
+        padding: 5px;
+    }
+    .btn {
+        padding: 3px 6px;
+    }
+    #raid-image {
+        height: 100px;
+    }
+    #raid-name {
+        font-size: 18px;
+    }
+    #raid-location, #raid-requires {
+        font-size: 14px;
+    }
 }
