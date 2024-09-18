@@ -55,12 +55,17 @@ const raidActivities = [
   }
 ];
 
+const classes = ["Hunter", "Titan", "Warlock"];
+const subclasses = ["Solar", "Arc", "Void", "Stasis", "Strand", "Prismatic"];
+
 const generateBtn = document.getElementById('generate-btn');
 const raidActivityDiv = document.getElementById('raid-activity');
 const raidImage = document.getElementById('raid-image');
 const raidName = document.getElementById('raid-name');
 const raidLocation = document.getElementById('raid-location');
 const raidRequires = document.getElementById('raid-requires');
+const classOutput = document.getElementById('class-output');
+const subclassOutput = document.getElementById('subclass-output');
 
 generateBtn.addEventListener('click', () => {
     const randomRaid = raidActivities[Math.floor(Math.random() * raidActivities.length)];
@@ -68,6 +73,8 @@ generateBtn.addEventListener('click', () => {
     raidName.textContent = randomRaid.activity;
     raidLocation.textContent = `Location: ${randomRaid.location}`;
     raidRequires.textContent = `Requires: ${randomRaid.requires}`;
+    classOutput.textContent = `Class: ${randomClass}`;
+    subclassOutput.textContent = `Subclass: ${randomSubclass}`;
     raidActivityDiv.style.display = 'block';
 });
 
