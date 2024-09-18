@@ -59,13 +59,13 @@ const classes = ["Hunter", "Titan", "Warlock"];
 const subclasses = ["Solar", "Arc", "Void", "Stasis", "Strand", "Prismatic"];
 
 const generateBtn = document.getElementById('generate-btn');
-const raidActivityDiv = document.getElementById('raid-activity');
+const raidDetails = document.getElementById('raid-details');
 const raidImage = document.getElementById('raid-image');
 const raidName = document.getElementById('raid-name');
 const raidLocation = document.getElementById('raid-location');
 const raidRequires = document.getElementById('raid-requires');
-const classOutput = document.getElementById('class-output');
-const subclassOutput = document.getElementById('subclass-output');
+const challengeClass = document.getElementById('random-class');
+const challengeSubclass = document.getElementById('random-subclass');
 
 generateBtn.addEventListener('click', () => {
     const randomRaid = raidActivities[Math.floor(Math.random() * raidActivities.length)];
@@ -75,10 +75,10 @@ generateBtn.addEventListener('click', () => {
     raidName.textContent = randomRaid.activity;
     raidLocation.textContent = `Location: ${randomRaid.location}`;
     raidRequires.textContent = `Requires: ${randomRaid.requires}`;
-    classOutput.textContent = `${randomClass}`;
-    subclassOutput.textContent = `${randomSubclass}`;
-    //raidActivityDiv.style.display = 'block';
+    challengeClass.textContent = `${randomClass}`;
+    challengeSubclass.textContent = `${randomSubclass}`;
+    raid-details.style.display = 'block';
 });
 
 // Hide raid activity initially
-//raidActivityDiv.style.display = 'none';
+raid-details.style.display = 'none';
