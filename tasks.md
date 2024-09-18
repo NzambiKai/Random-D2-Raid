@@ -39,4 +39,4 @@ Location:
 Requires:
 
 All images have come from
-https://www.blueberries.gg/wp-content/uploads/2023/03/Root-of-Nightmares-Raid-Featured-Destiny-2-1536x864.jpg
+https://www.blueberries.gg/leveling/destiny-2-raids/
