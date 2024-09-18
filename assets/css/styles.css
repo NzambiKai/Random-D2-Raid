@@ -1,8 +1,7 @@
+/* Light mode styles */
 body {
-    font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+    color: #333;
 }
 
 .container {
@@ -24,31 +23,23 @@ body {
     cursor: pointer;
 }
 
-.btn:hover {
-    background-color: #3e8e41;
-}
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333;
+        color: #f0f0f0;
+    }
 
-.raid-activity {
-    margin-top: 20px;
-    text-align: center;
-}
+    .container {
+        background-color: #444;
+        border: 1px solid #555;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
 
-#raid-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-#raid-name {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-#raid-location, #raid-requires {
-    font-size: 18px;
-    color: #666;
+    .btn {
+        background-color: #4CAF50; /* or change to a darker shade */
+        color: #fff;
+    }
 }
 
 /* Responsive design */
