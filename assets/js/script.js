@@ -75,8 +75,8 @@ generateBtn.addEventListener('click', () => {
     raidName.textContent = randomRaid.activity;
     raidLocation.textContent = `Location: ${randomRaid.location}`;
     raidRequires.textContent = `Requires: ${randomRaid.requires}`;
-    classOutput.textContent = `Class: ${randomClass}`;
-    subclassOutput.textContent = `Subclass: ${randomSubclass}`;
+    classOutput.textContent = `${randomClass}`;
+    subclassOutput.textContent = `${randomSubclass}`;
     raidActivityDiv.style.display = 'block';
 });
 
