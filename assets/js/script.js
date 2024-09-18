@@ -1,57 +1,57 @@
 const raidActivities = [
   {
-    imagePath: "/images/raid1.jpg",
-    activity: "Leviathan",
-    location: "The Tower",
-    requires: "Power Level 300"
+    imagePath: "salvations-edge.jpg",
+    activity: "Salvation's Edge",
+    location: "Pale Heart",
+    requires: "The Final Shape"
   },
   {
-    imagePath: "/images/raid2.jpg",
-    activity: "Spire of Stars",
-    location: "The Dreaming City",
-    requires: "Power Level 320"
+    imagePath: "crotas-end.jpg",
+    activity: "Crota's End",
+    location: "Legends",
+    requires: "Free-to-Play"
   },
   {
-    imagePath: "/images/raid3.jpg",
-    activity: "Last Wish",
-    location: "The Dreaming City",
-    requires: "Power Level 340"
+    imagePath: "root-of-nightmares.jpg",
+    activity: "Root of Nightmares",
+    location: "Neomuna",
+    requires: "Lightfall"
   },
   {
-    imagePath: "/images/raid4.jpg",
-    activity: "Garden of Salvation",
-    location: "The Black Garden",
-    requires: "Power Level 360"
+    imagePath: "kings-fall.jpg",
+    activity: "King's Fall",
+    location: "Legends",
+    requires: "Free-to-Play"
   },
   {
-    imagePath: "/images/raid5.jpg",
+    imagePath: "vow-of-the-disciple.jpg",
+    activity: "Vow of the Disciple",
+    location: "Throne World",
+    requires: "Witch Queen"
+  },
+  {
+    imagePath: "vault-of-glass.jpg",
+    activity: "Vault of Glass",
+    location: "Legends",
+    requires: "Free-to-Play"
+  },
+  {
+    imagePath: "deep-stone-crypt.jpg",
     activity: "Deep Stone Crypt",
     location: "Europa",
-    requires: "Power Level 380"
+    requires: "Beyond Light"
   },
   {
-    imagePath: "/images/raid6.jpg",
-    activity: "Vault of Glass",
-    location: "The Glass Throne Room",
-    requires: "Power Level 400"
+    imagePath: "garden-of-salvation.jpg",
+    activity: "Garden of Salvation",
+    location: "Moon",
+    requires: "Shadowkeep Pack"
   },
   {
-    imagePath: "/images/raid7.jpg",
-    activity: "Crota's End",
-    location: "The Abyss",
-    requires: "Power Level 420"
-  },
-  {
-    imagePath: "/images/raid8.jpg",
-    activity: "King's Fall",
-    location: "The Taken King's Throne Room",
-    requires: "Power Level 440"
-  },
-  {
-    imagePath: "/images/raid9.jpg",
-    activity: "Wrath of the Machine",
-    location: "The Vault of Glass",
-    requires: "Power Level 460"
+    imagePath: "last-wish.jpg",
+    activity: "Last Wish",
+    location: "Dreaming City",
+    requires: "Forsaken Pack"
   }
 ];
 
