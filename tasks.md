@@ -7,7 +7,8 @@
 
 # All the current D2 Raids
 ## Salvation's Edge
-Location: Pale Heart \n
+Location: Pale Heart
+
 Requires: The Final Shape
 
 ## Crota's End
