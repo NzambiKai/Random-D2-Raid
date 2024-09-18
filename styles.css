@@ -32,9 +32,8 @@ body {
     background-color: #3e8e41;
 }
 
-.raid-activity {
+#raid-activity {
     padding: 20px;
-    text-align: center;
 }
 
 #raid-image {
