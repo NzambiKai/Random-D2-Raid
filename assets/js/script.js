@@ -64,7 +64,7 @@ const raidRequires = document.getElementById('raid-requires');
 
 generateBtn.addEventListener('click', () => {
     const randomRaid = raidActivities[Math.floor(Math.random() * raidActivities.length)];
-    raidImage.src = randomRaid.imagePath;
+    raidImage.src = 'assets/img/raids/${randomRaid.imagePath}';
     raidName.textContent = randomRaid.activity;
     raidLocation.textContent = `Location: ${randomRaid.location}`;
     raidRequires.textContent = `Requires: ${randomRaid.requires}`;
