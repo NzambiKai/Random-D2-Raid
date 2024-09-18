@@ -12,35 +12,43 @@ Location: Pale Heart
 Requires: The Final Shape
 
 ## Crota's End
-Location: Legends \n
+Location: Legends
+
 Requires: Free-to-Play
 
 ## Root of Nightmares
 Location: Neomuna
+
 Requires: Lightfall
 
 ## King's Fall
 Location: Legends
+
 Requires: Free-to-Play
 
 ## Vow of the Disciple
 Location: Throne World
+
 Requires: Witch Queen
 
 ## Vault of Glass
 Location: Legends
+
 Requires: Free-to-Play
 
 ## Deep Stone Crypt
 Location: Europa
+
 Requires: Beyond Light Pack
 
 ## Garden of Salvation
 Location: Moon
+
 Requires: Shadowkeep Pack
 
 ## Last Wish
 Location: Dreaming City
+
 Requires: Forsaken Pack
 
 # Assets
