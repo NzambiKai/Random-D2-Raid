@@ -72,4 +72,4 @@ generateBtn.addEventListener('click', () => {
 });
 
 // Hide raid activity initially
-//raidActivityDiv.style.display = 'none';
+raidActivityDiv.style.display = 'none';
