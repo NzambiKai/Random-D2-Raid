@@ -21,7 +21,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.btn {
+#generate-btn {
     background-color: #4CAF50;
     color: #fff;
     padding: 10px 20px;
@@ -30,7 +30,7 @@ body {
     cursor: pointer;
 }
 
-.btn:hover {
+#generate-btn:hover {
     background-color: #3e8e41;
 }
 
@@ -70,7 +70,7 @@ body {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
-    .btn {
+    #generate-btn {
         background-color: #4CAF50; /* or change to a darker shade */
         color: #fff;
     }
