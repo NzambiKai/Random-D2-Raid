@@ -21,6 +21,10 @@ body {
     text-align:center;
 }
 
+.col-4 {
+    width: 33.3333%;
+}
+
 #generate-btn {
     background-color: rgba(183, 140, 37, 0.8);
     color: #fff;
