@@ -87,8 +87,8 @@ generateBtn.addEventListener('click', () => {
     requiresImage.src = `images/icons/${randomRaid.requiresImagePath}`;
     requiresName.textContent = randomRaid.requires;
     //`<h4>Extra Challenge</h4><p>Run all ${randomClass} and only ${randomSubclass} subclass.</p>`;
-    raidDetails.style.display = 'block';
+    raidDetails.style.display = 'flex';
 });
 
 // Hide raid activity initially
-//raidDetails.style.display = 'none';
+raidDetails.style.display = 'none';
