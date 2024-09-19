@@ -53,14 +53,14 @@ const raidActivities = [
     activity: "Garden of Salvation",
     location: "Moon",
     requiresImagePath: "shadowkeep.png",
-    requires: "Shadowkeep Pack"
+    requires: "Shadowkeep"
   },
   {
     imagePath: "last-wish.jpg",
     activity: "Last Wish",
     location: "Dreaming City",
     requiresImagePath: "forsaken.png",
-    requires: "Forsaken Pack"
+    requires: "Forsaken"
   }
 ];
 
@@ -87,7 +87,7 @@ generateBtn.addEventListener('click', () => {
     locationName.textContent = randomRaid.location;
     requiresImage.src = `images/icons/${randomRaid.requiresImagePath}`;
     requiresName.textContent = randomRaid.requires;
-    requiresImage.src = `images/subclasses/${randomSubclass.toLowerCase()}.svg`;
+    challengeImage.src = `images/subclasses/${randomSubclass.toLowerCase()}.svg`;
     button.textContent = `Re-roll Raid Activity`;
     
     //`<h4>Extra Challenge</h4><p>Run all ${randomClass} and only ${randomSubclass} subclass.</p>`;
