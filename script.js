@@ -64,8 +64,7 @@ const raidImage = document.getElementById('raid-image');
 const raidName = document.getElementById('raid-name');
 const raidLocation = document.getElementById('raid-location');
 const raidRequires = document.getElementById('raid-requires');
-const challengeClass = document.getElementById('random-class');
-const challengeSubclass = document.getElementById('random-subclass');
+const extraChallenge = document.getElementById('extra-challenge');
 
 generateBtn.addEventListener('click', () => {
     const randomRaid = raidActivities[Math.floor(Math.random() * raidActivities.length)];
@@ -75,8 +74,7 @@ generateBtn.addEventListener('click', () => {
     raidName.textContent = randomRaid.activity;
     raidLocation.textContent = `<h4>Location</h4>${randomRaid.location}`;
     raidRequires.textContent = `<h4>Requires</h4>${randomRaid.requires}`;
-    challengeClass.textContent = `${randomClass}`;
-    challengeSubclass.textContent = `${randomSubclass}`;
+    extraChallenge.textContent = `<h4>Extra Challenge</h4>Run all ${randomClass} and only ${randomSubclass} subclass.`;
     raidDetails.style.display = 'block';
 });
 
