@@ -22,6 +22,7 @@ body {
 
 #raid-details {
     display: flex;
+    flex-wrap: no-wrap;
 }
 
 .col-4 {
