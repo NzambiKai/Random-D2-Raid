@@ -63,11 +63,6 @@ body {
         background-color: #0f1217;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
-
-    #generate-btn {
-        background-color: #4CAF50; /* or change to a darker shade */
-        color: #fff;
-    }
 }
 
 /* Responsive design */
