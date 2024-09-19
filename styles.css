@@ -22,6 +22,7 @@ body {
 
 .col-4 {
     /* width: 33%; */
+    margin:0px;
     width: 25%;
     background-color:black;
     display:inline-block;
