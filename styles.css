@@ -59,6 +59,10 @@ body {
     border-radius: 10px 10px 0 0;
 }
 
+#location-image, #requires-image, #subclass-image {
+    width: 125px;
+}
+
 .footer {
     max-width: 600px;
     margin: 40px auto;
