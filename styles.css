@@ -49,18 +49,10 @@ body {
     box-shadow: 0 0 0 4px #1f2326, 0 0 0 5px #fff;    
 }
 
-#raid-activity {
-    padding: 20px;
-}
-
 #raid-image {
     width: 100%;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
-}
-
-#location-image, #requires-image, #subclass-image {
-    width: 125px;
 }
 
 .footer {
@@ -72,21 +64,9 @@ body {
 
 /* Responsive design */
 @media only screen and (max-width: 768px) {
-    .container {
-        margin: 20px auto;
-        padding: 10px;
-    }
+
 }
 
 @media only screen and (max-width: 480px) {
-    .container {
-        margin: 10px auto;
-        padding: 5px;
-    }
-    .btn {
-        padding: 3px 6px;
-    }
-    #raid-image {
-        height: 100px;
-    }
+
 }
