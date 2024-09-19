@@ -93,7 +93,6 @@ generateBtn.addEventListener('click', () => {
     challengeClassName.textContent = randomClass;
     challengeSubclassName.textContent = randomSubclass;
     button.textContent = `Re-roll Raid Activity`;
-    //.toLowerCase()
     //`<h4>Extra Challenge</h4><p>Run all ${randomClass} and only ${randomSubclass} subclass.</p>`;
     raidDetails.style.display = 'flex';
 });
