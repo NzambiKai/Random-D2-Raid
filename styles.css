@@ -21,7 +21,8 @@ body {
 }
 
 .col-4 {
-    width: 33%;
+    /* width: 33%; */
+    width: 25%;
     display:inline-block;
 }
 
