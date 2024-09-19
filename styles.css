@@ -29,7 +29,8 @@ body {
 }
 
 #generate-btn:hover {
-    background-color: #3e8e41;
+    background-color: rgb(183, 140, 37);
+    border: 1px solid #fff;
 }
 
 #raid-activity {
