@@ -23,7 +23,7 @@ body {
 .col-4 {
     /* width: 33%; */
     margin:0px;
-    width: 33.333%;
+    width: 33%;
     display:inline-block;
     vertical-align: top;
 }
