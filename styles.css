@@ -22,6 +22,7 @@ body {
 #generate-btn {
     background-color: rgba(183, 140, 37, 0.8);
     color: #fff;
+    font-size: 1rem;
     padding: 12px 24px;
     border: 1px solid #ffc71d;
     cursor: pointer;
