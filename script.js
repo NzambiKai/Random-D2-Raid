@@ -89,7 +89,6 @@ generateBtn.addEventListener('click', () => {
     requiresImage.src = `images/icons/${randomRaid.requiresImagePath}`;
     requiresName.textContent = randomRaid.requires;
     challengeImage.src = `images/subclasses/${randomSubclass}.svg`;
-    challengeImage.textContent = `images/subclasses/${randomSubclass}.svg`;
     className.textContent = randomClass;
     subclassName.textContent = randomSubclass;
     button.textContent = `Re-roll Raid Activity`;
