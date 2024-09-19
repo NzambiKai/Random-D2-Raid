@@ -27,6 +27,7 @@ body {
     width: 33.333%;
     background-color:black;
     display:inline-block;
+    vertical-align: top;
 }
 
 #generate-btn {
