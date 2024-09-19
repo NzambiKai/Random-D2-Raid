@@ -41,17 +41,6 @@ body {
     border-radius: 10px 10px 0 0;
 }
 
-#raid-name {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-#raid-location, #raid-requires {
-    font-size: 18px;
-    color: #666;
-}
-
 /* Dark mode styles */
 @media (prefers-color-scheme: dark) {
     body {
@@ -71,18 +60,6 @@ body {
         margin: 20px auto;
         padding: 10px;
     }
-    .btn {
-        padding: 5px 10px;
-    }
-    #raid-image {
-        height: 150px;
-    }
-    #raid-name {
-        font-size: 20px;
-    }
-    #raid-location, #raid-requires {
-        font-size: 16px;
-    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -95,11 +72,5 @@ body {
     }
     #raid-image {
         height: 100px;
-    }
-    #raid-name {
-        font-size: 18px;
-    }
-    #raid-location, #raid-requires {
-        font-size: 14px;
     }
 }
