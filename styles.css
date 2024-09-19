@@ -23,6 +23,7 @@ body {
 .col-4 {
     /* width: 33%; */
     width: 25%;
+    background-color:black;
     display:inline-block;
 }
 
