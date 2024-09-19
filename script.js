@@ -82,7 +82,7 @@ const button = document.getElementById('generate-btn');
 generateBtn.addEventListener('click', () => {
     const randomRaid = raidActivities[Math.floor(Math.random() * raidActivities.length)];
     const randomClass = classes[Math.floor(Math.random() * classes.length)];
-    const randomSubclass = subclasses[Math.floor(Math.random() * subclasses.length)].toLowerCase();
+    const randomSubclass = subclasses[Math.floor(Math.random() * subclasses.length)];
   
     raidImage.src = `images/raids/${randomRaid.imagePath}`;
     raidName.textContent = randomRaid.activity;
