@@ -20,11 +20,10 @@ body {
 }
 
 #generate-btn {
-    background-color: #4CAF50;
+    background-color: rgba(183, 140, 37, 0.8);
     color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    padding: 12px 24px;
+    border: 1px solid #ffc71d;
     cursor: pointer;
 }
 
