@@ -72,9 +72,9 @@ generateBtn.addEventListener('click', () => {
     const randomSubclass = subclasses[Math.floor(Math.random() * subclasses.length)];
     raidImage.src = `images/raids/${randomRaid.imagePath}`;
     raidName.textContent = randomRaid.activity;
-    raidLocation.textContent = `<h4>Location</h4>${randomRaid.location}`;
-    raidRequires.textContent = `<h4>Requires</h4>${randomRaid.requires}`;
-    extraChallenge.textContent = `<h4>Extra Challenge</h4>Run all ${randomClass} and only ${randomSubclass} subclass.`;
+    raidLocation.innerHTML = `<h4>Location</h4>${randomRaid.location}`;
+    raidRequires.innerHTML = `<h4>Requires</h4>${randomRaid.requires}`;
+    extraChallenge.innerHTML = `<h4>Extra Challenge</h4>Run all ${randomClass} and only ${randomSubclass} subclass.`;
     raidDetails.style.display = 'block';
 });
 
