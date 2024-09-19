@@ -14,7 +14,7 @@ body {
 .container {
     max-width: 600px;
     margin: 40px auto;
-    background-color: #fff;
+    background-color: #1f2326;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align:center;
@@ -38,7 +38,7 @@ body {
 #generate-btn:hover {
     background-color: rgb(183, 140, 37);
     border: 1px solid #fff;
-    box-shadow: 0 0 0 4px red, 0 0 0 5px yellow;    
+    box-shadow: 0 0 0 4px #1f2326, 0 0 0 5px #fff;    
 }
 
 #raid-activity {
