@@ -33,6 +33,7 @@ body {
     border: 1px solid #ffc71d;
     cursor: pointer;
     transition: box-shadow 0.25s ease-in-out;
+    margin:1rem;
 }
 
 #generate-btn:hover {
