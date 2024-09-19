@@ -22,7 +22,7 @@ body {
 
 .col-4 {
     width: 33.3333%;
-    display:block;
+    display:inline-block;
 }
 
 #generate-btn {
