@@ -81,13 +81,13 @@ const button = document.getElementById('generate-btn');
 generateBtn.addEventListener('click', () => {
     const randomRaid = raidActivities[Math.floor(Math.random() * raidActivities.length)];
     const randomClass = classes[Math.floor(Math.random() * classes.length)];
-    const randomSubclass = subclasses[Math.floor(Math.random() * subclasses.length)];
+    const randomSubclass = subclasses[Math.floor(Math.random() * subclasses.length)].toLowerCase();
     raidImage.src = `images/raids/${randomRaid.imagePath}`;
     raidName.textContent = randomRaid.activity;
     locationName.textContent = randomRaid.location;
     requiresImage.src = `images/icons/${randomRaid.requiresImagePath}`;
     requiresName.textContent = randomRaid.requires;
-    //challengeImage.src = `images/subclasses/${randomSubclass}.svg`;
+    challengeImage.src = `images/subclasses/${randomSubclass}.svg`;
     button.textContent = `Re-roll Raid Activity`;
     //.toLowerCase()
     //`<h4>Extra Challenge</h4><p>Run all ${randomClass} and only ${randomSubclass} subclass.</p>`;
