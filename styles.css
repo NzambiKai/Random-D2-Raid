@@ -38,7 +38,7 @@ body {
 #generate-btn:hover {
     background-color: rgb(183, 140, 37);
     border: 1px solid #fff;
-    box-shadow: 0 0 0 5px #fff, 0 0 0 7px #333;    
+    box-shadow: 0 0 0 4px #transparent, 0 0 0 7px #fff;    
 }
 
 #raid-activity {
