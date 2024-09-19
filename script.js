@@ -3,54 +3,63 @@ const raidActivities = [
     imagePath: "salvations-edge.jpg",
     activity: "Salvation's Edge",
     location: "Pale Heart",
+    requiresImagePath: "the-final-shape.png",
     requires: "The Final Shape"
   },
   {
     imagePath: "crotas-end.jpg",
     activity: "Crota's End",
     location: "Legends",
+    requiresImagePath: "destiny-2.png",
     requires: "Free-to-Play"
   },
   {
     imagePath: "root-of-nightmares.jpg",
     activity: "Root of Nightmares",
     location: "Neomuna",
+    requiresImagePath: "lightfall.png",
     requires: "Lightfall"
   },
   {
     imagePath: "kings-fall.jpg",
     activity: "King's Fall",
     location: "Legends",
+    requiresImagePath: "destiny-2.png",
     requires: "Free-to-Play"
   },
   {
     imagePath: "vow-of-the-disciple.jpg",
     activity: "Vow of the Disciple",
     location: "Throne World",
+    requiresImagePath: "the-witch-queen.png",
     requires: "Witch Queen"
   },
   {
     imagePath: "vault-of-glass.jpg",
     activity: "Vault of Glass",
     location: "Legends",
+    requiresImagePath: "destiny-2.png",
     requires: "Free-to-Play"
   },
   {
     imagePath: "deep-stone-crypt.jpg",
     activity: "Deep Stone Crypt",
     location: "Europa",
+    requiresImagePath: "beyond-light.png",
     requires: "Beyond Light"
   },
   {
     imagePath: "garden-of-salvation.jpg",
     activity: "Garden of Salvation",
     location: "Moon",
+    requiresImagePath: "shadowkeep.png",
     requires: "Shadowkeep Pack"
   },
   {
     imagePath: "last-wish.jpg",
     activity: "Last Wish",
     location: "Dreaming City",
+    requiresImagePath: "forsaken.png",
     requires: "Forsaken Pack"
   }
 ];
