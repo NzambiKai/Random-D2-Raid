@@ -87,6 +87,7 @@ generateBtn.addEventListener('click', () => {
     locationName.textContent = randomRaid.location;
     requiresImage.src = `images/icons/${randomRaid.requiresImagePath}`;
     requiresName.textContent = randomRaid.requires;
+    requiresImage.src = `images/subclasses/${randomSubclass.toLowerCase()}.svg`;
     button.textContent = `Re-roll Raid Activity`;
     
     //`<h4>Extra Challenge</h4><p>Run all ${randomClass} and only ${randomSubclass} subclass.</p>`;
