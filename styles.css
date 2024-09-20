@@ -18,10 +18,13 @@ body {
 
 .row {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
 }
 .col {
     background-color: green;
+    flex: 1 0 0%;
     /* width: 100%; */
 }
 
