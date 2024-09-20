@@ -74,8 +74,9 @@ const raidName = document.getElementById('raid-name');
 const locationName = document.getElementById('location-name');
 const requiresImage = document.getElementById('requires-image');
 const requiresName = document.getElementById('requires-name');
-const challengeImage = document.getElementById('challenge-image');
+const challengeClassImage = document.getElementById('challenge-class-image');
 const challengeClassName = document.getElementById('class-name');
+const challengeSubclassImage = document.getElementById('challenge-subclass-image');
 const challengeSubclassName = document.getElementById('subclass-name');
 const button = document.getElementById('generate-btn');
 
@@ -89,8 +90,9 @@ generateBtn.addEventListener('click', () => {
     locationName.textContent = randomRaid.location;
     //requiresImage.src = `images/icons/${randomRaid.requiresImagePath}`;
     requiresName.textContent = randomRaid.requires;
-    challengeImage.src = `images/subclass/${randomSubclass.toLowerCase()}.svg`;
+    challengeClassImage.src = `images/class/${randomClass.toLowerCase()}.svg`;
     challengeClassName.textContent = randomClass;
+    challengeSubclassImage.src = `images/subclass/${randomSubclass.toLowerCase()}.svg`;
     challengeSubclassName.textContent = randomSubclass;
     button.textContent = `Re-roll Raid Activity`;
     //`<h4>Extra Challenge</h4><p>Run all ${randomClass} and only ${randomSubclass} subclass.</p>`;
