@@ -23,12 +23,11 @@ body {
 #raid-details {
     display: flex;
     flex-wrap: no-wrap;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.col-4 {
-    /* width: 33%; */
-    margin:0px;
-    width: 33%;
+.col {
     vertical-align: top;
 }
 
