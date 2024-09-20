@@ -3,10 +3,6 @@ body {
     font-size:1rem;
     margin: 0;
     padding: 0;
-}
-
-/* Light mode styles */
-body {
     background-color: #13171a;
     color: #fff;
 }
@@ -27,6 +23,10 @@ body {
     margin-right: 20px;
 }
 
+.col-left {
+    vertical-align: top;
+    flex: 60%;
+}
 .col {
     vertical-align: top;
 }
