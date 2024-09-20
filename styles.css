@@ -16,20 +16,13 @@ body {
     text-align:center;
 }
 
-#raid-details {
+.row {
     display: flex;
-    flex-wrap: no-wrap;
-    margin-left: 20px;
-    margin-right: 20px;
-    gap: 20px;
-}
-
-.col-left {
-    vertical-align: top;
-    flex: 60%;
+    flex-direction: column;
 }
 .col {
-    vertical-align: top;
+    background-color: green;
+    /* width: 100%; */
 }
 
 #generate-btn {
