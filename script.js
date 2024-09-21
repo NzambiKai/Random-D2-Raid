@@ -96,7 +96,7 @@ generateBtn.addEventListener('click', () => {
     challengeSubclassName.textContent = randomSubclass;
     button.textContent = `Re-roll Raid Activity`;
     //`<h4>Extra Challenge</h4><p>Run all ${randomClass} and only ${randomSubclass} subclass.</p>`;
-    raidDetails.style.display = 'flex';
+    raidDetails.style.display = 'block';
 });
 
 // Hide raid activity initially
