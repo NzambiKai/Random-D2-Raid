@@ -3,7 +3,7 @@ const raidActivities = [
     imagePath: "salvations-edge.jpg",
     activity: "Salvation's Edge",
     location: "Pale Heart",
-    requires: "The Final Shape"
+    requires: "Requires The Final Shape"
   },
   {
     imagePath: "crotas-end.jpg",
@@ -15,7 +15,7 @@ const raidActivities = [
     imagePath: "root-of-nightmares.jpg",
     activity: "Root of Nightmares",
     location: "Neomuna",
-    requires: "Lightfall"
+    requires: "Requires Lightfall"
   },
   {
     imagePath: "kings-fall.jpg",
@@ -27,7 +27,7 @@ const raidActivities = [
     imagePath: "vow-of-the-disciple.jpg",
     activity: "Vow of the Disciple",
     location: "Throne World",
-    requires: "Witch Queen"
+    requires: "Requires Witch Queen"
   },
   {
     imagePath: "vault-of-glass.jpg",
@@ -39,19 +39,19 @@ const raidActivities = [
     imagePath: "deep-stone-crypt.jpg",
     activity: "Deep Stone Crypt",
     location: "Europa",
-    requires: "Beyond Light"
+    requires: "Requires Beyond Light Pack"
   },
   {
     imagePath: "garden-of-salvation.jpg",
     activity: "Garden of Salvation",
     location: "Moon",
-    requires: "Shadowkeep"
+    requires: "Requires Shadowkeep Pack"
   },
   {
     imagePath: "last-wish.jpg",
     activity: "Last Wish",
     location: "Dreaming City",
-    requires: "Forsaken"
+    requires: "Requires Forsaken Pack"
   }
 ];
 
@@ -214,6 +214,7 @@ const exoticImage4 = document.getElementById('exotic-image4');
 const exoticName4 = document.getElementById('exotic-name4');
 const exoticImage5 = document.getElementById('exotic-image5');
 const exoticName5 = document.getElementById('exotic-name5');
+const challengeNameDisplay = document.getElementById('challengeNameDisplay');
 const button = document.getElementById('generate-btn');
 
 generateBtn.addEventListener('click', () => {
@@ -229,24 +230,33 @@ generateBtn.addEventListener('click', () => {
     //requiresImage.src = `images/icons/${randomRaid.requiresImagePath}`;
     requiresName.textContent = randomRaid.requires;
     classImage.src = `images/class/${randomClass.toLowerCase()}.svg`;
-    className.textContent = randomClass;
+    classImage.dataset.name = `All ${randomClass}`;
     subclassImage.src = `images/subclass/${randomSubclass.toLowerCase()}.svg`;
-    subclassName.textContent = randomSubclass;
+    subclassImage.dataset.name = `All ${randomSubclass}`;
     exoticImage0.src = `images/exotics/${randomExoticWeapons[0]}.jpg`;
-    exoticName0.textContent = randomExoticWeapons[0];
+    exoticImage0.dataset.name = randomExoticWeapons[0];
     exoticImage1.src = `images/exotics/${randomExoticWeapons[1]}.jpg`;
-    exoticName1.textContent = randomExoticWeapons[1];
+    exoticImage1.dataset.name = randomExoticWeapons[1];
     exoticImage2.src = `images/exotics/${randomExoticWeapons[2]}.jpg`;
-    exoticName2.textContent = randomExoticWeapons[2];
+    exoticImage2.dataset.name = randomExoticWeapons[2];
     exoticImage3.src = `images/exotics/${randomExoticWeapons[3]}.jpg`;
-    exoticName3.textContent = randomExoticWeapons[3];
+    exoticImage3.dataset.name = randomExoticWeapons[3];
     exoticImage4.src = `images/exotics/${randomExoticWeapons[4]}.jpg`;
-    exoticName4.textContent = randomExoticWeapons[4];
+    exoticImage4.dataset.name = randomExoticWeapons[4];
     exoticImage5.src = `images/exotics/${randomExoticWeapons[5]}.jpg`;
-    exoticName5.textContent = randomExoticWeapons[5];
+    exoticImage5.dataset.name = randomExoticWeapons[5];
     button.textContent = `Re-roll Raid Activity`;
     //`<h4>Extra Challenge</h4><p>Run all ${randomClass} and only ${randomSubclass} subclass.</p>`;
     raidDetails.style.display = 'block';
+});
+
+const elements = document.querySelectorAll('.challenge-img');
+
+elements.forEach((element) => {
+  element.addEventListener('click', () => {
+    const text = element.getAttribute('data-name');
+    challengeNameDisplay.textContent = text;
+  });
 });
 
 // Hide raid activity initially
